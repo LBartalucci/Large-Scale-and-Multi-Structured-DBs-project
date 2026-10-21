@@ -4,7 +4,7 @@
 ### DUBBI:
  - Chi fa cosa? Distinguere cosa fanno graphdb e docdb
  - Modifiche a UML finale: 
-    - Via Unregistered User, 
+    - Via Unregistered User
     - Valutare arco *Admin->User* 
  - Attenzione alla similarita' tra utenti
 
