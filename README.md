@@ -7,6 +7,7 @@
     - Via Unregistered User
     - Valutare arco *Admin->User* 
  - Attenzione alla similarita' tra utenti
+ - Pensare a nuovo sketch per grafo 
 
 ### DROPPED:
 - The system must recommend games similar to those played by the user -> Via la similarita' statica tra giochi
