@@ -2,7 +2,6 @@
 
 ## Resoconto Post-Chiamata
 ### DUBBI:
- - Chi fa cosa? Distinguere cosa fanno graphdb e docdb
  - Modifiche a UML finale: 
     - Via Unregistered User
     - Valutare arco *Admin->User* 
@@ -13,8 +12,48 @@
 - The system must recommend games similar to those played by the user -> Via la similarita' statica tra giochi
 - Rankings (troppo simile alla ricerca)
 ### AGGIUNTE
-- GRAPH:  Social Network Influence Factor (Indice di Coesione della Playerbase)
-- DOC: Average Playtime(easy) e Tasso di Drop-off(piu' complesso)
-- GRAPH + DOC: 
-    -  Se le recensioni rimangono come sono: *Social Virality Velocity*
-    -  Se le recensioni diventano granulari: *Polarization & Echo Chamber Index*
+- Il voto associato ad una recensione adesso va da 1 a 5
+- GRAPH: Indice di Coesione della Playerbase
+- DOC: Average Playtime e Std.Dev. voti 
+- GRAPH + DOC: Polarization & Echo Chamber Index
+
+### Materiale per GrillMe
+- Specifiche progetto
+- Contesto (cosa fa il progetto)
+- Progetti passati a tema videogiochi (se buono)
+- Progetto passati non a tema videogiochi (libri, auto...)
+
+#### Nota: Cercando un utente si possono vedere i videogiochi a cui ha giocato, anche se non si e' amici
+
+### CHi fa cosa?
+#### DOCDB
+- login/registrazione
+- ricerca videogiochi/utenti
+- iniziare/terminare/abbandonare videogioco
+- recensire un gioco
+- media voti videogioco
+- devstd voti videogioco
+- media playtime videogioco
+- vedere recensioni di un videogioco
+- calcolo videogiochi trending
+- aggiungere/bannare/eliminare utente
+- aggiungere/eliminare gioco
+- admin: vedere le recensioni pubblicate da un utente
+- utente: elimiare una SUA recensione
+- admin: elimiare una recensione
+
+#### GRAPHDB
+- fare amicizia con un utente
+- indice di coesione della playerbase
+- similarita' tra utenti
+- raccomandazione giochi in base a utenti simili
+
+#### GRAPHDB + DOCDB
+- polarization e echo chamber
+
+Chiedere se conviene mettere i videogiochi nel graph (come sono distribuite le cose ora va bene? cosa cambieresti?) 
+videogiochi vanno nel graph 	->  vedere gli amici che hanno completato un gioco GRAPHDB
+videogiochi NON vanno nel graph ->  vedere gli amici che hanno completato un gioco GRAPHDB + DOCDB
+
+Chidere se - vedere i giochi completati da un utente - e' una query solo su DOCDB   
+
