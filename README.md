@@ -52,8 +52,8 @@
 - polarization e echo chamber
 
 Chiedere se conviene mettere i videogiochi nel graph (come sono distribuite le cose ora va bene? cosa cambieresti?) 
-videogiochi vanno nel graph 	    ->  vedere gli amici che hanno completato un gioco GRAPHDB
-videogiochi NON vanno nel graph  ->  vedere gli amici che hanno completato un gioco GRAPHDB + DOCDB
+- videogiochi vanno nel graph -> vedere gli amici che hanno completato un gioco GRAPHDB
+- videogiochi NON vanno nel graph -> vedere gli amici che hanno completato un gioco GRAPHDB + DOCDB
 
 Chidere se - vedere i giochi completati da un utente - e' una query solo su DOCDB   
 
