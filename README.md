@@ -25,7 +25,7 @@
 
 #### Nota: Cercando un utente si possono vedere i videogiochi a cui ha giocato, anche se non si e' amici
 
-### CHi fa cosa?
+### Chi fa cosa?
 #### DOCDB
 - login/registrazione
 - ricerca videogiochi/utenti
@@ -52,8 +52,8 @@
 - polarization e echo chamber
 
 Chiedere se conviene mettere i videogiochi nel graph (come sono distribuite le cose ora va bene? cosa cambieresti?) 
-videogiochi vanno nel graph 	->  vedere gli amici che hanno completato un gioco GRAPHDB
-videogiochi NON vanno nel graph ->  vedere gli amici che hanno completato un gioco GRAPHDB + DOCDB
+videogiochi vanno nel graph 	    ->  vedere gli amici che hanno completato un gioco GRAPHDB
+videogiochi NON vanno nel graph  ->  vedere gli amici che hanno completato un gioco GRAPHDB + DOCDB
 
 Chidere se - vedere i giochi completati da un utente - e' una query solo su DOCDB   
 
